@@ -1,0 +1,9 @@
+//
+//  release.xcconfig
+//  WordClock
+//
+//  Created by Simon on 24/10/2009.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+#include "shared.xcconfig"
+COPY_PHASE_STRIP = YES

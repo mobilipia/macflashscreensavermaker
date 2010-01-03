@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+		F41661BE0E6C7F48005C5831 /* MacFlashScreensaverMaker_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F41661BD0E6C7F48005C5831 /* MacFlashScreensaverMaker_Prefix.pch */; };
+		F41661C20E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41661BF0E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h */; };
+		F41661C30E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */; };
+		F4C02E3610B7FEFF00F1EC58 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F4C02E3310B7FEFF00F1EC58 /* debug.xcconfig */; };
+		F4C02E3710B7FEFF00F1EC58 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F4C02E3410B7FEFF00F1EC58 /* release.xcconfig */; };
+		F4C02E3810B7FEFF00F1EC58 /* shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F4C02E3510B7FEFF00F1EC58 /* shared.xcconfig */; };
+		F4C02E5A10B8017D00F1EC58 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C02E5910B8017D00F1EC58 /* Quartz.framework */; };
+		F4CD9C400E1F63B300242298 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CD9C3F0E1F63B300242298 /* WebKit.framework */; };
+		F4CD9CEE0E1F672C00242298 /* OptionsController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CD9CEC0E1F672C00242298 /* OptionsController.h */; };
+		F4CD9CEF0E1F672C00242298 /* OptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CD9CED0E1F672C00242298 /* OptionsController.m */; };
+		F4CD9CF30E1F676F00242298 /* OptionsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CD9CF20E1F676F00242298 /* OptionsWindow.xib */; };
+		F4EEFB640E896C0B004FB9A6 /* ExampleScreensaver.swf in Resources */ = {isa = PBXBuildFile; fileRef = F4EEFB600E896C0B004FB9A6 /* ExampleScreensaver.swf */; };
+		F4EEFB650E896C0B004FB9A6 /* ExampleConfig.swf in Resources */ = {isa = PBXBuildFile; fileRef = F4EEFB610E896C0B004FB9A6 /* ExampleConfig.swf */; };
+		F4F8394A0E462DBF00612FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F839490E462DBF00612FE5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F41661B80E6C7F3E005C5831 /* MacFlashScreensaverMaker.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacFlashScreensaverMaker.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41661BD0E6C7F48005C5831 /* MacFlashScreensaverMaker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacFlashScreensaverMaker_Prefix.pch; sourceTree = "<group>"; };
+		F41661BF0E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacFlashScreensaverMakerView.h; sourceTree = "<group>"; };
+		F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacFlashScreensaverMakerView.m; sourceTree = "<group>"; };
+		F4AF57F60E210FDD00125CF5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4C02E3310B7FEFF00F1EC58 /* debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		F4C02E3410B7FEFF00F1EC58 /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+		F4C02E3510B7FEFF00F1EC58 /* shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = shared.xcconfig; sourceTree = "<group>"; };
+		F4C02E5910B8017D00F1EC58 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		F4CD9C3F0E1F63B300242298 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		F4CD9CEC0E1F672C00242298 /* OptionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsController.h; sourceTree = "<group>"; };
+		F4CD9CED0E1F672C00242298 /* OptionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsController.m; sourceTree = "<group>"; };
+		F4CD9CF20E1F676F00242298 /* OptionsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionsWindow.xib; sourceTree = "<group>"; };
+		F4EEFB600E896C0B004FB9A6 /* ExampleScreensaver.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ExampleScreensaver.swf; sourceTree = "<group>"; };
+		F4EEFB610E896C0B004FB9A6 /* ExampleConfig.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ExampleConfig.swf; sourceTree = "<group>"; };
+		F4F839490E462DBF00612FE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D255ACD0486D3F9007BF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */,
+				8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */,
+				F4CD9C400E1F63B300242298 /* WebKit.framework in Frameworks */,
+				F4F8394A0E462DBF00612FE5 /* Foundation.framework in Frameworks */,
+				F4C02E5A10B8017D00F1EC58 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* wordclock_screesaver_flash */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0302E10B8059E00F1EC58 /* Config */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA70370C4F300C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				F4F839490E462DBF00612FE5 /* Foundation.framework */,
+			);
+			name = wordclock_screesaver_flash;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4CD9CF20E1F676F00242298 /* OptionsWindow.xib */,
+				F4CD9CF90E1F682B00242298 /* swf */,
+				8D255AD20486D3F9007BF209 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F41661BF0E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h */,
+				F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */,
+				F4CD9CEC0E1F672C00242298 /* OptionsController.h */,
+				F4CD9CED0E1F672C00242298 /* OptionsController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				F4CD9C3F0E1F63B300242298 /* WebKit.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */,
+				F4C02E5910B8017D00F1EC58 /* Quartz.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41661B80E6C7F3E005C5831 /* MacFlashScreensaverMaker.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA70370C4F300C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF57F60E210FDD00125CF5 /* main.m */,
+				F41661BD0E6C7F48005C5831 /* MacFlashScreensaverMaker_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F4C0302E10B8059E00F1EC58 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02E3310B7FEFF00F1EC58 /* debug.xcconfig */,
+				F4C02E3410B7FEFF00F1EC58 /* release.xcconfig */,
+				F4C02E3510B7FEFF00F1EC58 /* shared.xcconfig */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		F4CD9CF90E1F682B00242298 /* swf */ = {
+			isa = PBXGroup;
+			children = (
+				F4EEFB600E896C0B004FB9A6 /* ExampleScreensaver.swf */,
+				F4EEFB610E896C0B004FB9A6 /* ExampleConfig.swf */,
+			);
+			name = swf;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D255AC60486D3F9007BF209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CD9CEE0E1F672C00242298 /* OptionsController.h in Headers */,
+				F41661BE0E6C7F48005C5831 /* MacFlashScreensaverMaker_Prefix.pch in Headers */,
+				F41661C20E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D255AC50486D3F9007BF209 /* macflashscreensavermaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "macflashscreensavermaker" */;
+			buildPhases = (
+				8D255AC60486D3F9007BF209 /* Headers */,
+				8D255AC90486D3F9007BF209 /* Resources */,
+				8D255ACB0486D3F9007BF209 /* Sources */,
+				8D255ACD0486D3F9007BF209 /* Frameworks */,
+				8D255AD00486D3F9007BF209 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macflashscreensavermaker;
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = wordclock_screesaver_flash;
+			productReference = F41661B80E6C7F3E005C5831 /* MacFlashScreensaverMaker.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "MacFlashScreensaverMaker" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Italian,
+				ko,
+				Spanish,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* wordclock_screesaver_flash */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D255AC50486D3F9007BF209 /* macflashscreensavermaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D255AC90486D3F9007BF209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
+				F4CD9CF30E1F676F00242298 /* OptionsWindow.xib in Resources */,
+				F4EEFB640E896C0B004FB9A6 /* ExampleScreensaver.swf in Resources */,
+				F4EEFB650E896C0B004FB9A6 /* ExampleConfig.swf in Resources */,
+				F4C02E3610B7FEFF00F1EC58 /* debug.xcconfig in Resources */,
+				F4C02E3710B7FEFF00F1EC58 /* release.xcconfig in Resources */,
+				F4C02E3810B7FEFF00F1EC58 /* shared.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D255AD00486D3F9007BF209 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D255ACB0486D3F9007BF209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CD9CEF0E1F672C00242298 /* OptionsController.m in Sources */,
+				F41661C30E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7AD72E08BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C02E3310B7FEFF00F1EC58 /* debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EF7AD72F08BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C02E3410B7FEFF00F1EC58 /* release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		EF7AD73208BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C02E3310B7FEFF00F1EC58 /* debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EF7AD73308BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C02E3410B7FEFF00F1EC58 /* release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "macflashscreensavermaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD72E08BB986600CE4634 /* Debug */,
+				EF7AD72F08BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "MacFlashScreensaverMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD73208BB986600CE4634 /* Debug */,
+				EF7AD73308BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

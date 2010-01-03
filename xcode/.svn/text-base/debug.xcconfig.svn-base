@@ -1,0 +1,12 @@
+//
+//  debug.xcconfig
+//  WordClock
+//
+//  Created by Simon on 24/10/2009.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+#include "shared.xcconfig"
+ONLY_ACTIVE_ARCH = YES
+COPY_PHASE_STRIP = NO
+GCC_DYNAMIC_NO_PIC = NO
+GCC_OPTIMIZATION_LEVEL = 0

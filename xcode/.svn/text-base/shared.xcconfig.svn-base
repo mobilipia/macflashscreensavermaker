@@ -1,0 +1,22 @@
+//
+//  build.xcconfig
+//  WordClock
+//
+//  Created by Simon on 24/10/2009.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+PRODUCT_NAME = MacFlashScreensaverMaker;
+WRAPPER_EXTENSION = saver;
+
+ARCHS = $(ARCHS_STANDARD_32_64_BIT);
+GCC_ENABLE_OBJC_GC = supported;
+GCC_VERSION = 4.2;
+MACOSX_DEPLOYMENT_TARGET[arch=i386] = 10.4;
+MACOSX_DEPLOYMENT_TARGET[arch=ppc] = 10.4;
+SDKROOT = macosx10.6;
+
+INSTALL_PATH = $(HOME)/Library/Screen Savers;
+INFOPLIST_FILE = Info.plist;
+GCC_MODEL_TUNING = G5;
+GCC_PRECOMPILE_PREFIX_HEADER = YES;
+GCC_PREFIX_HEADER = MacFlashScreensaverMaker_Prefix.pch;
