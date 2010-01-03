@@ -282,9 +282,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>5</integer>
-									<integer>0</integer>
+									<integer>29</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -327,7 +325,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MacFlashScreensaverMakerView.m</string>
+								<string>shared.xcconfig</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -335,11 +333,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MacFlashScreensaverMakerView.m</string>
+										<string>shared.xcconfig</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F405BA9B10F0B46800D4F51E</string>
+										<string>F405BAAD10F0BC6000D4F51E</string>
 										<key>history</key>
 										<array>
 											<string>F44AB7950E2D4197003D2EE8</string>
@@ -351,11 +349,11 @@
 											<string>F43BD9B310EFE94D003D8D28</string>
 											<string>F43BD9B510EFE94D003D8D28</string>
 											<string>F43BD9B610EFE94D003D8D28</string>
-											<string>F43BD9B710EFE94D003D8D28</string>
-											<string>F43BD9B810EFE94D003D8D28</string>
-											<string>F405BA9810F0B46800D4F51E</string>
 											<string>F405BA9910F0B46800D4F51E</string>
-											<string>F405BA9A10F0B46800D4F51E</string>
+											<string>F405BAA910F0BC4100D4F51E</string>
+											<string>F405BAAA10F0BC4100D4F51E</string>
+											<string>F405BAAB10F0BC4100D4F51E</string>
+											<string>F43BD9B710EFE94D003D8D28</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

@@ -65,6 +65,11 @@
 			F405BA9910F0B46800D4F51E /* PBXTextBookmark */ = F405BA9910F0B46800D4F51E /* PBXTextBookmark */;
 			F405BA9A10F0B46800D4F51E /* XCBuildMessageTextBookmark */ = F405BA9A10F0B46800D4F51E /* XCBuildMessageTextBookmark */;
 			F405BA9B10F0B46800D4F51E /* PBXTextBookmark */ = F405BA9B10F0B46800D4F51E /* PBXTextBookmark */;
+			F405BAA910F0BC4100D4F51E /* PBXTextBookmark */ = F405BAA910F0BC4100D4F51E /* PBXTextBookmark */;
+			F405BAAA10F0BC4100D4F51E /* PBXTextBookmark */ = F405BAAA10F0BC4100D4F51E /* PBXTextBookmark */;
+			F405BAAB10F0BC4100D4F51E /* PBXTextBookmark */ = F405BAAB10F0BC4100D4F51E /* PBXTextBookmark */;
+			F405BAAC10F0BC4100D4F51E /* PBXTextBookmark */ = F405BAAC10F0BC4100D4F51E /* PBXTextBookmark */;
+			F405BAAD10F0BC6000D4F51E /* PBXTextBookmark */ = F405BAAD10F0BC6000D4F51E /* PBXTextBookmark */;
 			F41661CA0E6C7F8C005C5831 = F41661CA0E6C7F8C005C5831 /* PBXTextBookmark */;
 			F43BD9B010EFE94D003D8D28 = F43BD9B010EFE94D003D8D28 /* PBXTextBookmark */;
 			F43BD9B110EFE94D003D8D28 = F43BD9B110EFE94D003D8D28 /* PlistBookmark */;
@@ -158,6 +163,56 @@
 		vrLen = 792;
 		vrLoc = 2011;
 	};
+	F405BAA910F0BC4100D4F51E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */;
+		name = "MacFlashScreensaverMakerView.m: 77";
+		rLen = 0;
+		rLoc = 2486;
+		rType = 0;
+		vrLen = 1323;
+		vrLoc = 0;
+	};
+	F405BAAA10F0BC4100D4F51E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4C02E3310B7FEFF00F1EC58 /* debug.xcconfig */;
+		name = "debug.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	F405BAAB10F0BC4100D4F51E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4C02E3410B7FEFF00F1EC58 /* release.xcconfig */;
+		name = "release.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 188;
+		vrLoc = 0;
+	};
+	F405BAAC10F0BC4100D4F51E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4C02E3510B7FEFF00F1EC58 /* shared.xcconfig */;
+		name = "shared.xcconfig: 14";
+		rLen = 0;
+		rLoc = 319;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	F405BAAD10F0BC6000D4F51E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4C02E3510B7FEFF00F1EC58 /* shared.xcconfig */;
+		name = "shared.xcconfig: 23";
+		rLen = 0;
+		rLoc = 595;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
 	F41661BD0E6C7F48005C5831 /* MacFlashScreensaverMaker_Prefix.pch */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {755, 491}}";
@@ -177,7 +232,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {755, 1320}}";
 			sepNavSelRange = "{2486, 0}";
-			sepNavVisRange = "{2011, 792}";
+			sepNavVisRange = "{0, 1323}";
 		};
 	};
 	F41661CA0E6C7F8C005C5831 /* PBXTextBookmark */ = {
@@ -318,15 +373,15 @@
 	};
 	F4C02E3410B7FEFF00F1EC58 /* release.xcconfig */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {755, 491}}";
+			sepNavIntBoundsRect = "{{0, 0}, {755, 484}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 188}";
 		};
 	};
 	F4C02E3510B7FEFF00F1EC58 /* shared.xcconfig */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {755, 491}}";
-			sepNavSelRange = "{319, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {755, 484}}";
+			sepNavSelRange = "{595, 0}";
 			sepNavVisRange = "{0, 595}";
 		};
 	};

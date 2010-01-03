@@ -13,9 +13,6 @@
 		F41661BE0E6C7F48005C5831 /* MacFlashScreensaverMaker_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F41661BD0E6C7F48005C5831 /* MacFlashScreensaverMaker_Prefix.pch */; };
 		F41661C20E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41661BF0E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h */; };
 		F41661C30E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */; };
-		F4C02E3610B7FEFF00F1EC58 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F4C02E3310B7FEFF00F1EC58 /* debug.xcconfig */; };
-		F4C02E3710B7FEFF00F1EC58 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F4C02E3410B7FEFF00F1EC58 /* release.xcconfig */; };
-		F4C02E3810B7FEFF00F1EC58 /* shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F4C02E3510B7FEFF00F1EC58 /* shared.xcconfig */; };
 		F4C02E5A10B8017D00F1EC58 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C02E5910B8017D00F1EC58 /* Quartz.framework */; };
 		F4CD9C400E1F63B300242298 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CD9C3F0E1F63B300242298 /* WebKit.framework */; };
 		F4CD9CEE0E1F672C00242298 /* OptionsController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CD9CEC0E1F672C00242298 /* OptionsController.h */; };
@@ -239,9 +236,6 @@
 				F4CD9CF30E1F676F00242298 /* OptionsWindow.xib in Resources */,
 				F4EEFB640E896C0B004FB9A6 /* ExampleScreensaver.swf in Resources */,
 				F4EEFB650E896C0B004FB9A6 /* ExampleConfig.swf in Resources */,
-				F4C02E3610B7FEFF00F1EC58 /* debug.xcconfig in Resources */,
-				F4C02E3710B7FEFF00F1EC58 /* release.xcconfig in Resources */,
-				F4C02E3810B7FEFF00F1EC58 /* shared.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
