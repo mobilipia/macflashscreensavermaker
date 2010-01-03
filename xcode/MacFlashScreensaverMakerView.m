@@ -20,11 +20,9 @@
     return self;
 }
 
-
 -(void)optionsWindowClosed
 {
 	[self loadSWF];
-	// recreate the options window to workaround focus bugs
 	[_optionsController release];
  	_optionsController = [[OptionsController alloc] init];
 	[_optionsController setDelegate:self];
@@ -58,24 +56,11 @@
 
 - (void)webView:(WebView *)sender resource:(id)identifier didFinishLoadingFromDataSource:(WebDataSource *)dataSource
 {
-//	NSLog(@"didFinishLoadingFromDataSource:%@",[[dataSource request] URL]);
-	
-	if ( _timer ) {
-		[_timer invalidate];
-	}
-	
-	_timer = [NSTimer 
-		scheduledTimerWithTimeInterval:0.5 
-		target:self 
-		selector:@selector(delayPassedSinceFinishLoadingFromDataSource) 
-		userInfo:nil 
-		repeats:NO
-	];
+	[self performSelector:@selector(delayPassedSinceFinishLoadingFromDataSource) withObject:nil afterDelay:0.5];
 }
 
 - (void)delayPassedSinceFinishLoadingFromDataSource
 {
-//	NSLog(@"delayPassedSinceFinishLoadingFromDataSource:");
 	[_screensaverWebView layer].opacity = 0.0f;
 	[_screensaverWebView setAlphaValue:1.0f];
 	CAAnimation *animation = [self 
@@ -86,28 +71,13 @@
 	];
 	
 	[[_screensaverWebView layer] addAnimation:animation forKey:@"opacityAnimation"];
-
 }
 
-- (void) dealloc 
+- (void)dealloc 
 {
-	if ( _timer ) {
-		[_timer invalidate];
-	}
 	[_optionsController release];
 	[_screensaverWebView release];
 	[super dealloc];
-}
-
-
-- (void)startAnimation
-{
-    [super startAnimation];
-}
-
-- (void)stopAnimation
-{
-    [super stopAnimation];
 }
 
 - (void)drawRect:(NSRect)rect
@@ -135,10 +105,5 @@
 {
     return [_optionsController window];
 }
-/*
-@synthesize _screensaverWebView;
-@synthesize configSheet;
-@synthesize _optionsController;
-@synthesize _timer;
-*/
+
 @end

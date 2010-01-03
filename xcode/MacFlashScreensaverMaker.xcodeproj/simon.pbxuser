@@ -55,25 +55,31 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 284158207;
-			PBXWorkspaceStateSaveDate = 284158207;
+			PBXPerProjectTemplateStateSaveDate = 284210141;
+			PBXWorkspaceStateSaveDate = 284210141;
 		};
 		perUserProjectItems = {
-			F41661CA0E6C7F8C005C5831 /* PBXTextBookmark */ = F41661CA0E6C7F8C005C5831 /* PBXTextBookmark */;
-			F43BD9B010EFE94D003D8D28 /* PBXTextBookmark */ = F43BD9B010EFE94D003D8D28 /* PBXTextBookmark */;
-			F43BD9B110EFE94D003D8D28 /* PlistBookmark */ = F43BD9B110EFE94D003D8D28 /* PlistBookmark */;
-			F43BD9B210EFE94D003D8D28 /* PBXTextBookmark */ = F43BD9B210EFE94D003D8D28 /* PBXTextBookmark */;
-			F43BD9B310EFE94D003D8D28 /* PBXTextBookmark */ = F43BD9B310EFE94D003D8D28 /* PBXTextBookmark */;
-			F43BD9B410EFE94D003D8D28 /* PBXTextBookmark */ = F43BD9B410EFE94D003D8D28 /* PBXTextBookmark */;
-			F43BD9B510EFE94D003D8D28 /* PBXTextBookmark */ = F43BD9B510EFE94D003D8D28 /* PBXTextBookmark */;
-			F43BD9B610EFE94D003D8D28 /* PBXTextBookmark */ = F43BD9B610EFE94D003D8D28 /* PBXTextBookmark */;
-			F43BD9B710EFE94D003D8D28 /* PBXTextBookmark */ = F43BD9B710EFE94D003D8D28 /* PBXTextBookmark */;
-			F43BD9B810EFE94D003D8D28 /* PBXTextBookmark */ = F43BD9B810EFE94D003D8D28 /* PBXTextBookmark */;
-			F43BD9B910EFE94D003D8D28 /* PBXTextBookmark */ = F43BD9B910EFE94D003D8D28 /* PBXTextBookmark */;
-			F44AB7950E2D4197003D2EE8 /* PBXTextBookmark */ = F44AB7950E2D4197003D2EE8 /* PBXTextBookmark */;
-			F4C0303910B8078200F1EC58 /* PBXTextBookmark */ = F4C0303910B8078200F1EC58 /* PBXTextBookmark */;
-			F4C0306810B8088D00F1EC58 /* PBXTextBookmark */ = F4C0306810B8088D00F1EC58 /* PBXTextBookmark */;
-			F4F838110E462C3300612FE5 /* PBXTextBookmark */ = F4F838110E462C3300612FE5 /* PBXTextBookmark */;
+			F405BA9310F0B46400D4F51E /* XCBuildMessageTextBookmark */ = F405BA9310F0B46400D4F51E /* XCBuildMessageTextBookmark */;
+			F405BA9410F0B46400D4F51E /* PBXTextBookmark */ = F405BA9410F0B46400D4F51E /* PBXTextBookmark */;
+			F405BA9810F0B46800D4F51E /* PBXTextBookmark */ = F405BA9810F0B46800D4F51E /* PBXTextBookmark */;
+			F405BA9910F0B46800D4F51E /* PBXTextBookmark */ = F405BA9910F0B46800D4F51E /* PBXTextBookmark */;
+			F405BA9A10F0B46800D4F51E /* XCBuildMessageTextBookmark */ = F405BA9A10F0B46800D4F51E /* XCBuildMessageTextBookmark */;
+			F405BA9B10F0B46800D4F51E /* PBXTextBookmark */ = F405BA9B10F0B46800D4F51E /* PBXTextBookmark */;
+			F41661CA0E6C7F8C005C5831 = F41661CA0E6C7F8C005C5831 /* PBXTextBookmark */;
+			F43BD9B010EFE94D003D8D28 = F43BD9B010EFE94D003D8D28 /* PBXTextBookmark */;
+			F43BD9B110EFE94D003D8D28 = F43BD9B110EFE94D003D8D28 /* PlistBookmark */;
+			F43BD9B210EFE94D003D8D28 = F43BD9B210EFE94D003D8D28 /* PBXTextBookmark */;
+			F43BD9B310EFE94D003D8D28 = F43BD9B310EFE94D003D8D28 /* PBXTextBookmark */;
+			F43BD9B410EFE94D003D8D28 = F43BD9B410EFE94D003D8D28 /* PBXTextBookmark */;
+			F43BD9B510EFE94D003D8D28 = F43BD9B510EFE94D003D8D28 /* PBXTextBookmark */;
+			F43BD9B610EFE94D003D8D28 = F43BD9B610EFE94D003D8D28 /* PBXTextBookmark */;
+			F43BD9B710EFE94D003D8D28 = F43BD9B710EFE94D003D8D28 /* PBXTextBookmark */;
+			F43BD9B810EFE94D003D8D28 = F43BD9B810EFE94D003D8D28 /* PBXTextBookmark */;
+			F43BD9B910EFE94D003D8D28 = F43BD9B910EFE94D003D8D28 /* PBXTextBookmark */;
+			F44AB7950E2D4197003D2EE8 = F44AB7950E2D4197003D2EE8 /* PBXTextBookmark */;
+			F4C0303910B8078200F1EC58 = F4C0303910B8078200F1EC58 /* PBXTextBookmark */;
+			F4C0306810B8088D00F1EC58 = F4C0306810B8088D00F1EC58 /* PBXTextBookmark */;
+			F4F838110E462C3300612FE5 = F4F838110E462C3300612FE5 /* PBXTextBookmark */;
 		};
 		sourceControlManager = F4CD9C3B0E1F635E00242298 /* Source Control */;
 		userBuildSettings = {
@@ -94,6 +100,64 @@
 			sepNavWindowFrame = "{{84, 83}, {871, 851}}";
 		};
 	};
+	F405BA9310F0B46400D4F51E /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'_timer' undeclared (first use in this function)";
+		fRef = F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 76;
+		rType = 1;
+	};
+	F405BA9410F0B46400D4F51E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */;
+		name = "MacFlashScreensaverMakerView.m: 61";
+		rLen = 0;
+		rLoc = 2123;
+		rType = 0;
+		vrLen = 943;
+		vrLoc = 1833;
+	};
+	F405BA9810F0B46800D4F51E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4C02E3310B7FEFF00F1EC58 /* debug.xcconfig */;
+		name = "debug.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	F405BA9910F0B46800D4F51E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F41661BF0E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h */;
+		name = "MacFlashScreensaverMakerView.h: 6";
+		rLen = 0;
+		rLoc = 115;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	F405BA9A10F0B46800D4F51E /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'_timer' undeclared (first use in this function)";
+		fRef = F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 76;
+		rType = 1;
+	};
+	F405BA9B10F0B46800D4F51E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */;
+		name = "MacFlashScreensaverMakerView.m: 77";
+		rLen = 0;
+		rLoc = 2486;
+		rType = 0;
+		vrLen = 792;
+		vrLoc = 2011;
+	};
 	F41661BD0E6C7F48005C5831 /* MacFlashScreensaverMaker_Prefix.pch */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {755, 491}}";
@@ -103,17 +167,17 @@
 	};
 	F41661BF0E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {973, 515}}";
-			sepNavSelRange = "{646, 0}";
-			sepNavVisRange = "{0, 652}";
+			sepNavIntBoundsRect = "{{0, 0}, {755, 484}}";
+			sepNavSelRange = "{115, 0}";
+			sepNavVisRange = "{0, 296}";
 			sepNavWindowFrame = "{{15, 166}, {1142, 831}}";
 		};
 	};
 	F41661C00E6C7F4D005C5831 /* MacFlashScreensaverMakerView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {755, 1548}}";
-			sepNavSelRange = "{714, 0}";
-			sepNavVisRange = "{180, 1353}";
+			sepNavIntBoundsRect = "{{0, 0}, {755, 1320}}";
+			sepNavSelRange = "{2486, 0}";
+			sepNavVisRange = "{2011, 792}";
 		};
 	};
 	F41661CA0E6C7F8C005C5831 /* PBXTextBookmark */ = {
@@ -145,7 +209,7 @@
 		);
 		name = /Users/simon/Cocoa/macflashscreensavermaker/xcode/Info.plist;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	F43BD9B210EFE94D003D8D28 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -247,7 +311,7 @@
 	};
 	F4C02E3310B7FEFF00F1EC58 /* debug.xcconfig */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {755, 491}}";
+			sepNavIntBoundsRect = "{{0, 0}, {755, 484}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 260}";
 		};
@@ -281,7 +345,7 @@
 		fRef = F41661BF0E6C7F4D005C5831 /* MacFlashScreensaverMakerView.h */;
 		name = "MacFlashScreensaverMakerView.h: 12";
 		rLen = 0;
-		rLoc = 329;
+		rLoc = 175;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 0;
